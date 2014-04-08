@@ -1,22 +1,47 @@
-*.gem
+# Ignore bundler config.
+/.bundle
+/vendor/bundle
+
+/public/assets/
+/public/media/
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# OS Files
+.DS_Store
+._.DS_Store
+
+# Text-editor/IDE generated files
+*.sublime-workspace
+*.sublime-project
+/.idea
+*.iml
+
 *.rbc
-.bundle
-.config
-.yardoc
-Gemfile.lock
-InstalledFiles
-_yardoc
-coverage
-doc/
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
-*.bundle
-*.so
-*.o
-*.a
-mkmf.log
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+config/initializers/secret_token.rb
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Ignore Tddium user-specific config
+.tddium*
+/ui.tddium*
