@@ -20,6 +20,21 @@ Or install it yourself as:
 
 ```ruby
 use OmniAuth::Builder do
-  provider :cortex
+  provider :cortex, ENV['CORTEX_KEY'], ENV['CORTEX_SECRET'], scope: 'scope1, scope2, scope3'
 end
+```
+
+## Override Environment
+
+If you would like to change the URLs used by omniauth-cortex, override :client_options in the provider config step.
+
+```ruby
+provider :cortex, ENV['CORTEX_KEY'], ENV['CORTEX_SECRET'], scope: 'scope1, scope2, scope3',
+  {
+    :client_options => {
+      :site => 'http://localhost:3000/api/v1',
+      :authorize_url => 'http://localhost:3000/oauth/authorize',
+      :token_url => 'http://localhost:3000/oauth/access_token'
+    }
+  }
 ```
