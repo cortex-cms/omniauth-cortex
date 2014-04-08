@@ -1,4 +1,4 @@
-# Omniauth::Cortex
+# OmniAuth::Cortex
 
 OmniAuth strategy for Cortex's OAuth 2.0 implementation
 
