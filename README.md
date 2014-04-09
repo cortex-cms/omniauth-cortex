@@ -1,6 +1,7 @@
 # OmniAuth::Cortex
 
-OmniAuth strategy for Cortex's OAuth 2.0 implementation
+OmniAuth strategy for Cortex's OAuth 2.0 implementation.
+[omniauth-github](https://github.com/intridea/omniauth-github) was used as a helpful model for this project.
 
 ## Installation
 
