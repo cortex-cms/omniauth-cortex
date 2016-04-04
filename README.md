@@ -1,5 +1,6 @@
 # omniauth-cortex
 
+[![Build Status](https://travis-ci.org/cortex-cms/omniauth-cortex.svg?branch=master)](https://travis-ci.org/cortex-cms/omniauth-cortex)
 [![Dependency Status](https://gemnasium.com/cortex-cms/omniauth-cortex.svg)](https://gemnasium.com/cortex-cms/omniauth-cortex)
 
 OmniAuth strategy for Cortex's OAuth 2.0 implementation.
