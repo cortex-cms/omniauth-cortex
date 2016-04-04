@@ -1,6 +1,6 @@
-# OmniAuth::Cortex
+# omniauth-cortex
 
-[![Dependency Status](https://gemnasium.com/cb-talent-development/omniauth-cortex.svg)](https://gemnasium.com/cb-talent-development/omniauth-cortex)
+[![Dependency Status](https://gemnasium.com/cortex-cms/omniauth-cortex.svg)](https://gemnasium.com/cortex-cms/omniauth-cortex)
 
 OmniAuth strategy for Cortex's OAuth 2.0 implementation.
 
@@ -38,7 +38,7 @@ provider :cortex, ENV['CORTEX_KEY'], ENV['CORTEX_SECRET'], scope: 'scope1, scope
     :client_options => {
       :site => 'http://localhost:3000/api/v1',
       :authorize_url => 'http://localhost:3000/oauth/authorize',
-      :token_url => 'http://localhost:3000/oauth/access_token'
+      :token_url => 'http://localhost:3000/oauth/token'
     }
   }
 ```

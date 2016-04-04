@@ -6,9 +6,9 @@ module OmniAuth
       option :name, 'cortex'
 
       option :client_options, {
-        :site          => 'https://cbcortex.com/api/v1',
-        :authorize_url => 'https://cbcortex.com/oauth/authorize',
-        :token_url     => 'https://cbcortex.com/oauth/token'
+        :site          => 'http://api.cbcortex.com/api/v1',
+        :authorize_url => 'http://api.cbcortex.com/oauth/authorize',
+        :token_url     => 'http://api.cbcortex.com/oauth/token'
       }
 
       uid{ raw_info['id'] }
